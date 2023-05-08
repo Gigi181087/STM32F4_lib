@@ -1,5 +1,5 @@
-#ifndef _STM32F4__SPI__MAKROS_CFG__H_
-#define _STM32F4__SPI__MAKROS_CFG__H_
+#ifndef _STM32F4__SPI__MAKROS__H_
+#define _STM32F4__SPI__MAKROS__H_
 
 /*
  * Makros for CPHA
