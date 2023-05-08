@@ -8,7 +8,7 @@
 #ifndef LIBRS_STM32_F4XX_CONFIGS_SPICGF_H_
 #define LIBRS_STM32_F4XX_CONFIGS_SPICGF_H_
 
-#include "../Makros/Spi_makros.h"
+#include "../SPI/SPI_makros.h"
 
 #undef SPI_CHANNEL1_USED
 #ifdef SPI_CHANNEL1_USED
