@@ -7,10 +7,11 @@ static inline void ResetClockControl_Init(void);
 
 
 inline void STM32_Init(void) {
-    SPI_Init();
+    ResetClockControl_Init();
 	GPIO_Init();
-	ResetClockControl_Init();
-
+	SPI_Init();
+	
+4141
     return;
 }
 
@@ -99,6 +100,7 @@ static inline void SPI_Init(void) {
 }
 
 static inline void GPIO_Init(void) {
+
 
 	return;
 }
